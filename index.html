@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Player</title>
+
+    <style>
+        lo-player {
+            display: block;
+            width: 400px;
+            aspect-ratio: calc(16 / 9);
+
+            position: fixed;
+            inset-inline-start: 50%;
+            inset-block-start: 50%;
+            translate: -50% -50%;
+        }
+    </style>
+</head>
+<body>
+<lo-player></lo-player>
+<script src="src/main.ts" type="module"></script>
+</body>
+</html>
